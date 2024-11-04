@@ -24,7 +24,7 @@ public class DecoratorTest {
         Item decoratedFlower = new BasketDecorator(new PaperDecorator(new RibbonDecorator(flower)));
 
      //   assertEquals("Flower type: TULIP, color: #0000FF, sepal length: 7.0 with ribbon wrapped in paper placed in a basket", 
-        decoratedFlower.getDescription());
+      //  decoratedFlower.getDescription());
       //  assertEquals(28.0, decoratedFlower.getPrice());
     }
 }
